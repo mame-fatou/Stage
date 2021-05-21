@@ -14,7 +14,7 @@
                     function enregistrer($username,$nom,$prenom,$numero,$adresse,$email,$disponible_debut,$disponible_fin,$permis,$photo_permis,$vehicule,$num_id,$photo_id,$carte_vitale,$mdp1){
                     	
 							$bdd = getBD();
-							$rep1=$bdd->query("INSERT INTO ulilisateur(username,nom,prenom,numero,adresse,email,disponible_debut,disponible_fin,permis,vehicule,num_id,photo_id,photo_permis,carte_vitale,mdp1) VALUES ('".$username."','".$nom."','".$prenom."','".$numero."','".$adresse."','".$email."','".$disponible_debut."','".$disponible_fin."','".$permis."','".$photo_permis."','".$vehicule."','".$num_id."','".$photo_id."','".$carte_vitale."','".$mdp1."',)"); 
+							$rep1=$bdd->query("INSERT INTO ulilisateur(username,nom,prenom,adresse,num,,email,disponible_debut,disponible_fin,permis,vehicule,num_id,photo_id,photo_permis,carte_vitale,mdp1) VALUES ('".$username."','".$nom."','".$prenom."','".$numero."','".$adresse."','".$email."','".$disponible_debut."','".$disponible_fin."','".$permis."','".$vehicule."','".$num_id."','".$photo_id."','".$photo_permis."','".$carte_vitale."','".$mdp1."')"); 
                     	
                     }
 					
