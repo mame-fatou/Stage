@@ -71,7 +71,6 @@
                         
                  <p><input type="password" name="mdp2"  value="" placeholder="Confirm"/></p>
 				 
-				 
 
              
                  <p><input type="submit" value="S'inscrire" /></p>
