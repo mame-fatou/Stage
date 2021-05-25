@@ -44,16 +44,18 @@
   <body class="text-center">
     
 <main class="form-signin">
-  <form>
+  <form action="connecter.php" method="GET" autocomplete="off">
     <img class="mb-4" src="images/logo.png" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
     <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+     <!-- <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"> -->
+	  <input class="form-control" type="mail" name="mail" value=""/>
       <label for="floatingInput">Adresse email</label>
     </div>
     <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <!-- <input type="password" class="form-control" id="floatingPassword" placeholder="Password"> -->
+	  <input class="form-control" type="password" name="mdp1" value=""/>
       <label for="floatingPassword">Mot de passe</label>
     </div>
 

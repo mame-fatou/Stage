@@ -52,9 +52,9 @@
 </style>
 <body >
 <div class="navbar">
-	<a href="accueil.php">Accueil</a>
-	<a href="#"></espace interim>
-	<a href="#">espace membre </a>
+	<a href="accueil.php">Home</a>
+	<a href="interim.php">espace interim</a>
+	<a href="membre.php">espace membre</a>
 
 	
 	
@@ -86,6 +86,12 @@ if(!isset($_SESSION['utilisateur'])) {  ?>
 
 <div class="parallax"></div>
 <div class="parallax"></div>
+
+
+
+
+
+
 
 
 
